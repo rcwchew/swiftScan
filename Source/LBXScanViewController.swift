@@ -163,7 +163,7 @@ open class LBXScanViewController: UIViewController, UIImagePickerControllerDeleg
     }
     
     //MARK: -----相册选择图片识别二维码 （条形码没有找到系统方法）
-    @nonobjc open func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject])
+    open func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any])
     {
         picker.dismiss(animated: true, completion: nil)
         
